@@ -18,8 +18,6 @@ f(x) = d^2(x) - R^2,
 
 so larger scores correspond to more anomalous samples.
 
-> To approximate vanilla soft-boundary DeepSVDD (without graph regularization and anomaly push-out), set `Omega = 0`, `lambda_u = 0`, and ensure only labeled normals are used.
-
 **Short name:** AAG-SS-DeepSVDD (or AAG-DSVDD).
 
 > **Status:** Research code for a manuscript that is currently in preparation / under review. The API and configuration may change. Once the paper is accepted, this repository will be updated with a stable release and the final citation.
